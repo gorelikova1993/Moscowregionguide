@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Moscow region guide</string>
+    <!-- Manors category -->
+    <string name="KName">Kuskovo</string>
+    <string name="kDescription"> Kuskovo was one of the first great summer country estates of the
+        Russian nobility, and one of the few near Moscow still preserved. Today the estate is the home of the
+        Russian State Museum of Ceramics, and the park is a favourite place of recreation for Muscovites.</string>
 </resources>
