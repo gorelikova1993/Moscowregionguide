@@ -8,4 +8,31 @@
         Russian State Museum of Ceramics, and the park is a favourite place of recreation for Muscovites.</string>
     <string name="KSite">http://kuskovo.ru/en/</string>
     <string name="KGeo">geo: 55.736947, 37.808537</string>
+
+    <!--Marfino -->
+    <string name="MName">Marfino</string>
+    <string name="mDescription">Ancient manor Marfino, which is an original monument of Russian architecture
+        of the XVIII - XIX centuries, is located near 39 kilometers Dmitrov highway. Famous in its time Palace and Park ensemble,
+        magnificent receptions and theatrical performances, the manor Marfino and today is one of the wonderful pages of the history of Russian architecture.</string>
+    <string name="mSite">http://marfino.narod.ru/</string>
+    <string name="mGeo">geo: 56.080495, 37.563409</string>
+
+    <!--Arkangelskoe -->
+    <string name="aName">Arkhangelskoye place</string>
+    <string name="aDescription">Arkhangelskoye is a historical estate in Krasnogorsky District, Moscow Oblast, Russia, located around 20 km to the west of Moscow
+        and 2 km southwest of Krasnogorsk. The estate is famous for its collection of fine art including paintings, sculptures, furnitures, ceramics and interior.</string>
+    <string name="aSite">http://arhangelskoe.su/</string>
+    <string name="aGeo">geo: 55.787665, 37.284483</string>
+
+    <!--Serednikovo-->
+    <string name="sName">Serednikovo</string>
+    <string name="sDescription">Serednikovo is a former estate of Vsevolozhsk and Stolypin, Park and manor ensemble of the
+        late XVIII-early XIX century, one of the most famous Lermontov places in Russia.</string>
+    <string name="sSite">https://serednikovo.su/</string>
+    <string name="sGeo">geo: 55.928713, 37.241219</string>
+
+    <!--other Strings -->
+    <string name="Manors">Manors</string>
+
+
 </resources>
