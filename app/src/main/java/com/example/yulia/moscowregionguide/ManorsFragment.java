@@ -37,6 +37,13 @@ public class ManorsFragment extends Fragment {
                 getString(R.string.KName),
                 getString(R.string.kDescription),  getString(R.string.KSite),
                 getString(R.string.KGeo), R.drawable.kuskovo));
+        manors.add(new Location(getString(R.string.aName), getString(R.string.aDescription),
+                getString(R.string.aSite), getString(R.string.aGeo), R.drawable.arkhangelskoe ));
+        manors.add(new Location(getString(R.string.MName), getString(R.string.mDescription),
+                getString(R.string.mSite), getString(R.string.mGeo), R.drawable.marfino));
+        manors.add(new Location(getString(R.string.sName), getString(R.string.sDescription), getString(R.string.sSite),
+                getString(R.string.sGeo), R.drawable.serednikovo));
+
 
 
 

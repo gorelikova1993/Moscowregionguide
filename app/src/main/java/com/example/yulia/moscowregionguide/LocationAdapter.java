@@ -1,6 +1,8 @@
 package com.example.yulia.moscowregionguide;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -37,7 +39,19 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
         viewHolder.infoTextView.setText(locations.get(position).getlInfo());
 
         viewHolder.mapImageView.setBackgroundResource(R.drawable.geo_im);
-//        viewHolder.mapImageView.getBackground().setAlpha(150);
+
+        viewHolder.mapImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri geo = Uri.parse(locations.get(viewHolder.getAdapterPosition()).getlGeo());
+                Intent map = new Intent(Intent.ACTION_VIEW, geo);
+                map.setPackage("com.google.android.apps.maps");
+                context.startActivity(map);
+
+
+            }
+        });
+
 
 
 
@@ -59,6 +73,7 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
         TextView nameTextView, infoTextView;
         Button linkButtonView;
 
+
         ViewHolder(View itemView) {
             super(itemView);
             placeImageView = itemView.findViewById(R.id.place_image_view);
@@ -66,6 +81,7 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
             infoTextView = itemView.findViewById(R.id.info_text);
             mapImageView = itemView.findViewById(R.id.geo_image);
             linkButtonView = itemView.findViewById(R.id.link_button);
+
 
         }
     }
