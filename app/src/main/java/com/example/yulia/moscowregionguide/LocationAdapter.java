@@ -52,6 +52,20 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
             }
         });
 
+//        viewHolder.linkButtonView.setText(locations.get(position).getlSite());
+
+        viewHolder.linkButtonView.setOnClickListener( new View.OnClickListener(){
+            public void onClick(View v) {
+                Uri link = Uri.parse(locations.get(viewHolder.getAdapterPosition()).getlSite());
+                Intent site = new Intent(Intent.ACTION_VIEW, link);
+                context.startActivity(site);
+
+
+            }
+        });
+
+
+
 
 
 
