@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageHeight">160dp</dimen>
+    <dimen name="cardMargin">8dp</dimen>
+    <dimen name="cardElevation">6dp</dimen>
+    <dimen name="descTextPadding">5dp</dimen>
+    <dimen name="geoImageWidth">50dp</dimen>
+    <dimen name="geoImageHeight">50dp</dimen>
+    <dimen name="geoImagePadding">10dp</dimen>
+    <dimen name="geoButtonPadding">10dp</dimen>
+</resources>

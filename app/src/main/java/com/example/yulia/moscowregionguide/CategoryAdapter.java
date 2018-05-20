@@ -14,23 +14,35 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     }
 
     public CharSequence getPageTitle(int position) {
-//        if (position == 0)
-            return context.getString(R.string.Manors);
+        switch (position) {
+            case 0:
+                return context.getString(R.string.Manors);
+            case 1:
+                return context.getString(R.string.Parks);
+            case 2:
+                return context.getString(R.string.Galleries);
+            default:
+                return context.getString(R.string.Museums);
 
         }
-
+    }
 
     public Fragment getItem(int position) {
         switch (position) {
-
-            default:
+            case 0:
                 return new ManorsFragment();
+            case 1:
+                return new ParksFragment();
+            case 2:
+                return new GalleriesFragment();
+            default:
+                return new MuseumsFragment();
 
         }
     }
 
     public int getCount() {
-        return 1;
+        return 4;
     }
 
 }

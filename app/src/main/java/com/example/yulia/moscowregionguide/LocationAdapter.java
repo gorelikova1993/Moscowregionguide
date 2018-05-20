@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.List;
@@ -21,7 +20,7 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
     private List<Location> locations;
 
 
-    LocationAdapter(List<Location> locations, Context mContext){
+    LocationAdapter(List<Location> locations, Context mContext) {
         this.locations = locations;
         this.context = mContext;
     }
@@ -52,9 +51,8 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
             }
         });
 
-//        viewHolder.linkButtonView.setText(locations.get(position).getlSite());
 
-        viewHolder.linkButtonView.setOnClickListener( new View.OnClickListener(){
+        viewHolder.linkButtonView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Uri link = Uri.parse(locations.get(viewHolder.getAdapterPosition()).getlSite());
                 Intent site = new Intent(Intent.ACTION_VIEW, link);
@@ -63,15 +61,6 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
 
             }
         });
-
-
-
-
-
-
-
-
-
 
 
     }

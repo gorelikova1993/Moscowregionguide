@@ -31,8 +31,112 @@
     <string name="sSite">https://serednikovo.su/</string>
     <string name="sGeo">geo: 55.928713, 37.241219</string>
 
+    <!--Museums-->
+    <!--Bulgakova-->
+    <string name="bName">Bulgakov Museum</string>
+    <string name="bDescription">The Bulgakov Museum in Moscow is a writer\'s house museum which commemorates the life and work
+        of author Mikhail Afanasyevich Bulgakov in an apartment where he lived in Moscow, Russia, and in which he set portions
+        of his novel The Master and Margarita. Graffiti, including text from the novel and drawings of its characters,
+        have decorated the external walls and stairwells of the apartment building since the beginning of perestroika.</string>
+    <string name="bSite">http://bulgakovmuseum.ru/en/visit/</string>
+    <string name="bGeo">geo: 55.767207, 37.593735</string>
+
+    <!--State Historical Museum-->
+    <string name="hName">State Historical Museum</string>
+    <string name="hDesription">The State Historical Museum of Russia is a museum of Russian history wedged between Red Square
+        and Manege Square in Moscow. Its exhibitions range from relics of prehistoric tribes that lived on the territory
+        of present-day Russia, through priceless artworks acquired by members of the Romanov dynasty. The total number of objects
+        in the museum\'s collection comes to millions.</string>
+    <string name="hSite">http://en.shm.ru/</string>
+    <string name="hGeo">geo: 55.755298, 37.617801</string>
+
+    <!-- State Darwin Museum -->
+    <string name="dName">State Darwin Museum</string>
+    <string name="dDescription">The State Darwin Museum is a natural history museum in Moscow. The museum was founded in 1907
+        by Alexander Kohts (1880-1964) and was the world\'s first museum of evolution explaining the work of Charles Darwin
+        as a causal explanation of nature. The museum taxidermist was then Filipp Fedulov.</string>
+    <string name="dSite">http://www.darwinmuseum.ru/</string>
+    <string name="dGeo">geo: 55.690650, 37.561610</string>
+
+    <!--Museum of the Great Patriotic War -->
+    <string name="wName">Museum of the Great Patriotic War</string>
+    <string name="wDescription">The Museum of the Great Patriotic War is a history museum located in Moscow at Poklonnaya Gora.
+        The building was designed by architect Anatoly Polyansky.Work on the museum began on March 3, 1986, and the museum was
+        opened to the public on May 9, 1995.The museum features exhibits and memorials concerning World War II, known in Russia as "The Great Patriotic War".</string>
+    <string name="wSite">http://new.victorymuseum.ru/</string>
+    <string name="wGeo">geo: 55.730848, 37.504660</string>
+
+    <!--Parks-->
+    <!--Gorky Park -->
+    <string name="gName">Gorky Park </string>
+    <string name="gDescription">Gorky Park, located at Krymsky Val and situated just across the Moskva River from Park Kultury
+        Metro station, opened in 1928. The park followed the plan of Konstantin Melnikov, a world-famous Soviet avant-garde and
+        constructivist architect, and amalgamated the extensive gardens of the old Golitsyn Hospital and of the Neskuchny Palace,
+        covering an area of 300 acres along the river.</string>
+    <string name="gSite">http://park-gorkogo.com/</string>
+    <string name="gGeo">geo: 55.728338, 37.601193</string>
+
+    <!-- Sparrow Hills -->
+    <string name="vName">Sparrow Hills</string>
+    <string name="vDescription">Sparrow Hills (Vorobyovy Gory) is a hill on the right bank of the Moskva River and
+        one of the highest points in Moscow, reaching a height of 220 m (720 ft), or 60–70 m (200–230 ft) above the river level.
+        The observation platform, which gives a good panoramic view of the city, is on a steep bank 85 m (279 ft) above the river,
+        or 200 m (660 ft) above sea level. The Luzhniki Stadium , where the opening and closing ceremonies for the 1980 Summer Olympics took place,
+        is right below, across the Moskva River. Next to it is the Novodevichy Convent, with its Naryshkin Baroque towers.    </string>
+    <string name="vSite">http://mos-holidays.ru/vorobyovy-gory/</string>
+    <string name="vGeo">geo: 55.709481, 37.542342</string>
+
+    <!--Izmaylovsky Park -->
+    <string name="iName">Izmaylovsky Park</string>
+    <string name="iDescription">Izmaylovsky Park is one of the largest parks in Moscow, Russia. Park consists of two areas: Izmaylovsky forest
+        and Izmaylovsky park for reacreation. It\'s situated in the Izmaylovo District in the North-East of
+        the city. The park was inaugurated in 1931. The northern border of the park is the tram line alongside the Izmailovskaya station
+        of the Moscow Metro that serves the park, the southern is the Entuziastov Highway. To the East the park is limited by the Main alley
+        and to the West by Electrodny proezd and 1st and 2nd streets of the Izmaylovo menagerie.</string>
+    <string name="iSite">http://www.izmailovsky-park.ru/</string>
+    <string name="iGeo">geo: 55.772872, 37.753770</string>
+
+    <!-- Sokolniki Park -->
+    <string name="soName">Sokolniki Park</string>
+    <string name="soDescription">Sokolniki is a typical Russian park, with an aging funfair and other amusements for children, and numerous fast food stalls
+        all clustered near the main entrance. In summer the central alleyways are a mass of brightly colored formal flowerbeds, while the depths of the park
+        are a wilderness home to pines and spruces, birches and oaks, limes and maples - all trees native to the Moscow region - as well as a number of non-indigenous
+        trees, such as larches, cedars, walnut, red oaks, etc. The park\'s wildlife includes hares, squirrels and weasels, as well as 76 types of bird.</string>
+    <string name="soSite">http://park.sokolniki.com/</string>
+    <string name="soGeo">geo: 55.795137, 37.676410</string>
+
+    <!-- Galleries -->
+    <!-- Tretyakov Gallery-->
+    <string name="trName">Tretyakov Gallery</string>
+    <string name="trDescription">The State Tretyakov Gallery is an art gallery in Moscow, Russia, the foremost depository of Russian fine art in the world. The gallery\'s
+        history starts in 1856 when the Moscow merchant Pavel Mikhailovich Tretyakov acquired works by Russian artists of his day with the aim of creating a collection,
+        which might later grow into a museum of national art. In 1892, Tretyakov presented his already famous collection of approximately 2,000 works (1,362 paintings,
+        526 drawings, and 9 sculptures) to the Russian nation.</string>
+    <string name="trSite">https://www.tretyakovgallery.ru/en/</string>
+    <string name="trGeo">geo: 55.741433, 37.620700</string>
+
+    <!-- Vinzavod-->
+    <string name="vinName">Moscow Contemporary Art Center Winzavod</string>
+    <string name="vinDescription">Winzavod is a centre for contemporary arts in Moscow, Russia. Opened in 2007, it is located in a complex of seven industrial buildings from
+        the late 19th century including the former brewery (and later winery) called "Moscow Bavaria". Alexander Brodsky is the coordinator of the project.</string>
+    <string name="vinSite">http://www.winzavod.ru/eng/</string>
+    <string name="vinGeo">geo: 55.755547, 37.664893</string>
+
+    <!-- Gallery of 19th and 20th century European and American Art -->
+    <string name="pushName">Gallery of 19th and 20th century European and American Art</string>
+    <string name="pushDescription">The Gallery, a new section of the Pushkin State Museum of Fine Arts, opened its doors to the public in August 2006. The Gallery\'s twenty-six
+        rooms contain a collection of works by masters of the 19th and 20th centuries. The pride of the Gallery consists of the paintings by French Impressionists and
+        Post-Impressionists and masters of the early 20th century: Claude Monet, August Renoir, Alfred Sisley, Camille Pissarro, Edgar Degas, Paul Gauguin, Vincent van Gogh,
+        Andre Derain and Menri Rousseau.</string>
+    <string name="pushSite">http://www.newpaintart.ru/index.php?lang=en</string>
+    <string name="pushGeo">geo: 55.746634, 37.605213</string>
+
     <!--other Strings -->
     <string name="Manors">Manors</string>
+    <string name="Museums">Museums</string>
+    <string name="Parks">Parks</string>
+    <string name="Galleries">Galleries</string>
+    <string name="button">Learn more</string>
 
 
 </resources>

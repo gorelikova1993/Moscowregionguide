@@ -27,11 +27,11 @@ public class Location {
         return lGeo;
     }
 
-    public String getlSite(){
+    public String getlSite() {
         return lSite;
     }
 
-    public int getlPhoto(){
+    public int getlPhoto() {
         return lPhoto;
     }
 }
